@@ -1,0 +1,664 @@
+/* Header Slider  & Navbar Css Start  */
+.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+body {
+font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+height: 40vh;
+}
+.navbar-inverse {
+background-color: #766161;
+border-color: transparent;
+height:10%;
+}
+.navbar-inverse .navbar-brand {
+color: #EDBB00;
+font-size: 3vw;
+padding: 20px 15px ;
+font-weight: 900;
+font: normal 40px 'Cookie', cursive;
+/* line-spacing:1.6em; */
+}
+
+.nav.navbar-nav.navbar-right {
+margin: 25px 0;
+
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #fff;
+text-transform: uppercase;
+font-weight:600;
+} 
+
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh; /* Change this value to increase the height */
+  }
+.carousel-caption {
+padding-bottom: 250px;
+font-family: poppins;
+}
+.carousel-caption h3 {
+font-size:10vw;
+text-transform: uppercase;
+font-weight: bold;
+}
+.carousel-caption h3 span {
+color: #EDBB00;
+}
+.carousel-caption a {
+background: #EDBB00;
+padding: 15px 35px;
+display: inline-block;
+margin-top: 15px;
+color: #fff;
+text-transform: uppercase;
+border-radius: 25px;
+font-size:15px;
+font-weight:400;
+}
+.carousel-control.right {
+background-image: none;
+}
+.carousel-control.left {
+background-image: none;
+}
+.carousel-indicators .active {
+background-color: #EDBB00;
+border-color: #EDBB00;
+
+}
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.carousel-caption {
+padding-bottom: 350px;
+}
+.carousel-caption h3 {
+font-size: 50px;
+}
+}
+@media only screen and (max-width: 767px) {
+.navbar-inverse .navbar-brand {
+font-size: 30px;
+padding: 20px 15px;
+}
+.navbar-collapse {
+text-decoration: none;
+background: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption {
+
+padding-bottom: 20px;
+}
+.carousel-caption h3 {
+font-size:15px;
+}
+.carousel-caption h4 {
+font-size: 10px;
+}
+.carousel-caption a {
+padding: 10px 25px;
+}
+}
+/* Header Slider & Navbar Css Close */
+
+
+/*Service flex box css  Start */
+.wrapper {  
+overflow:hidden;
+display: flex;
+}
+
+.wrapper div {
+min-height: 250px;
+padding-top: 0px;
+}
+
+.one {
+background-color:#766161;
+/* float:left;  */
+margin-right:0px;
+width:50vw;
+justify-content:space-around;
+}
+
+.two { 
+background-color: #5D534A;
+overflow:hidden;
+margin:0px;
+width:50vw;
+}
+
+.wrapper1 {  
+overflow:hidden;
+display: flex;
+}
+
+.wrapper1 div {
+min-height: 250px;
+padding-top: 0px;
+}
+
+.three {
+background-color:#766161;
+/* float:left;  */
+margin-right:0px;
+width:50vw;
+justify-content:space-around;
+}
+
+.four { 
+background-color: #5D534A;
+overflow:hidden;
+margin:0px;
+width:50vw;
+}
+	
+@media screen and (max-width: 400px) {
+.one { 
+float: none;
+margin-right:0;
+width:auto;
+} 
+}
+/*Service flex box css  Close */
+
+
+/* About us video css  Start */
+video{
+display: block;
+margin: auto;
+width:50%;
+height:70%;
+position: relative; 
+}
+/* About us video css  Close */
+
+
+/* Our Store  Css  Start */
+.testimonial{
+padding: 0 15px;
+text-align: center;
+}
+.testimonial .pic{
+display: inline-block;
+margin-bottom: 25px;
+}
+.testimonial .pic img{
+width: 100%;
+height:70%;
+}
+.testimonial .description{
+font-size: 16px;
+color: #808080;
+}
+.testimonial .testimonial-title{
+font-size: 14px;
+letter-spacing: 3px;
+color: #000;
+text-transform: uppercase;
+position: relative;
+}
+.testimonial .testimonial-title:after{
+content: "\f10d";
+font-family: "Font Awesome 5 Free"; font-weight: 900;
+display: inline-block;
+width: 100%;
+font-size: 40px;
+color: #54478a;
+margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+display: block;
+width: 12px;
+height: 12px;
+background: #f3904d;
+margin: 5px 7px;
+opacity: 0.5;
+}
+/* Our Store  Css  Close */
+
+
+/* Tea is a drink of us health Css  Start */
+.flex-container {
+display: flex;
+flex-direction: row;
+text-align: center;
+}
+
+.flex-container1 {
+display: flex;
+flex-direction: row;
+text-align: center;
+margin-top:0px;
+}
+
+.flex-item-left {
+background-color: #f1f1f1;
+padding: 20px;
+margin: 3vw;
+margin-right:3vw;
+margin-left:10vw;
+flex:50%;
+}
+
+.flex-item-right {
+background-color:#f1f1f1;
+padding:20px;
+margin: 3vw;
+margin-right:10vw;
+margin-left:3vw;
+flex:50%;
+}
+.flex-container :hover{
+background-color:#B9D146 ;
+color:white;
+transition: 0.7s;
+}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+.flex-container {
+flex-direction: column;
+}
+}
+/* Tea is a drink of us health Css  Close */
+
+
+/* Fix Background Image & Our Store Css Start */
+.margin{
+margin:3% 0;
+}
+.parallax{
+width:100%;
+background: url("img/bg1.jpg") no-repeat fixed 100%;
+background-size:cover;
+}
+.parallax-inner{
+
+padding-top:23%;
+padding-bottom:25%;
+}
+.parallax .parallax-inner{
+height:20%;
+backgrounnd-attachment:fixed;
+background: rgb(0, 0, 0); /* Fallback color */
+background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+color: #f1f1f1;
+}
+
+.text{
+
+font-size:3em;
+font-weight:600;
+color:#fff;
+letter-spacing:0.1em;
+}
+/* Fix Background Image & Our Store Css Close */
+
+/* Fix 2nd Background Image  Css Start */
+.para{
+width:100%;
+background: url("img/bg2.jpg") no-repeat fixed 100%;
+background-size:cover;
+}
+.para-inner{
+
+padding-top:23%;
+padding-bottom:25%;
+}
+.para .para-inner{
+height:20%;
+backgrounnd-attachment:fixed;
+background: rgb(0, 0, 0); /* Fallback color */
+background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+color: #f1f1f1;
+border:3px solid #EDBB00;
+ padding: 20px; 
+}
+
+.text{
+text-align:center;
+font-size:3em;
+font-weight:600;
+color:#fff;
+letter-spacing:0.1em;
+}
+/* Fix 2nd Background Image  Css Close */
+
+/* 
+.clearfix {
+background:#F3F4ED;
+border: 2px solid white;
+border-left:5px solid #57bd27;
+}
+
+.img2 {
+float: right;
+}
+
+.clearfix {
+overflow: auto;
+}
+
+#slideshow { 
+  margin-bottom: 8vw; 
+  margin-left:10vw;
+  margin-right:20px;
+  position: relative; 
+  width: 80%; 
+  height: 20vh; 
+  padding: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  background:#F3F4ED;
+}
+
+#slideshow > div { 
+  position: absolute; 
+  } */
+
+
+
+
+/*Why choose us Css Start */
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    width:30%;
+    margin-left:0px;;
+    background-color:#F6F5F5;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:30%;
+    background-color:#F6F5F5;
+}
+
+#right {
+    float:right;
+    width:30%;
+    margin-right:0px;;
+    background-color:#F6F5F5;
+}
+/*Why choose us Css Close */
+
+
+
+/* Footer Css Start */
+header{
+background-color:#F7F7E8;
+}
+	@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+	
+	footer{
+	margin-top:0px;
+	padding-top:10px;
+	bottom: 0;
+	}
+	
+	@media (max-height:800px){
+	footer { position: static; }
+	}
+	
+	.footer-distributed{
+	background-color: #766161;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 20px 50px 10px 50px;
+	margin-top: 0px;
+	}
+	
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+	}
+	
+	/* Footer left */
+	
+	.footer-distributed .footer-left{
+	width: 30%;
+	}
+	
+	.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+	}
+	
+	/* The company logo */
+	
+	.footer-distributed .footer-left img{
+	width: 30%;
+	}
+	
+	.footer-distributed h3 span{
+	color:  #e0ac1c;
+	}
+	
+	/* Footer links */
+	
+	.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	}
+	
+	.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+	}
+	
+	.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	}
+	
+	/* Footer Center */
+	
+	.footer-distributed .footer-center{
+	width: 35%;
+	}
+	
+	.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #e0ac1c;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+	}
+	
+	.footer-distributed .footer-center i.fa-envelope{
+	font-size: 12px;
+	line-height: 38px;
+	}
+	
+	.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+	}
+	
+	.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:15px;
+	line-height:2;
+	}
+	
+	.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+	}	
+	
+	/* Footer Right */
+	
+	.footer-distributed .footer-right{
+	width: 30%;
+	}
+	
+	.footer-distributed .footer-company-about{
+	line-height: 19px;
+	color: #F1F3F8;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0;
+	}
+	
+	.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	}
+	
+	.footer-distributed .footer-icons{
+	margin-top: 25px;
+	}
+	
+	.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #e0ac1c;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	}
+	
+	@media (max-width: 880px) {
+	
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+	display: block;
+	width: 100%;
+	margin-bottom: 0px;
+	text-align: center;
+	}
+	
+	.footer-distributed .footer-center i{
+	margin-left: 0;
+	}	
+	}
+	/* Footer Css Close */
+	
+	
+	/* What users say Css Start */
+	.swiper-container {
+	width:50vw;
+	display: flex;
+	margin: 0;
+	align-items: center;
+	background-color:#F7F7E8;
+	/*  background:url("") no-repeat 100%;
+	background-size:cover;*/
+	}
+	
+	.swiper-slide {
+   
+	text-align: center;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	}
+	
+	.slide-container {
+	padding: 61px 32px;
+	}
+	
+	.slide-card {
+	background-color: white;
+	box-shadow: 0 8px 30px -7px #000;
+	margin: 0 10px;
+	padding: 9px 33px;
+	border-radius: 20px;
+	border: 0;
+	cursor: grab;
+	}
+	
+	.slide-card .slide-card-img-top {
+	max-width: 100px;
+	border-radius: 25%;
+	margin: 15px auto 0;
+	width: 100px;
+	height: 100px;
+	}
+	
+	.slide-card h5 {
+	color:#EDBB00;
+	font-size: 25px;
+	line-height: 1.3;
+	}
+	
+	.slide-card h5 span {
+	font-size: 15px;
+	color:#01b0f8;
+	}
+	
+	.slide-card p {
+	font-size: 12px;
+	color:black;
+	padding-bottom: 15px;
+	}
+	
+	.swiper-slide.swiper-slide-active {
+	transform: scale(1.2);
+	}
+	
+	.autoplay {
+	position: absolute;
+	color: #000;
+	font: 100px/100% arial, sans-serif;
+	right: 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	top: 15px;
+	width:auto;
+	height: auto;
+	z-index:999;
+	opacity: 0.4;
+	transition: opacity 0.1s ease-in, transform 0.1s ease-out;
+	animation: fade_close 3s ease-out;
+	}
+	
+	@media (max-width:800px) {
+	.slide-container {
+	padding: 0px 0px;
+	}
+	
+	.swiper-slide {
+	width: 360px;
+	}
+	}
+	/*  What  users say Css Close */

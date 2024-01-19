@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-----------Carousel Our Store Links ------------>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+  <!----------What users say Links------------->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!----------------Footer Links --------------->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+  <!---------------Google Fonts Links -------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!--------Main Css Link -------->
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+
+  <!-----------Navbar Start---------->
+  <header id="index">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="img/logo.png" width="75px" height="70px" style="float:left;">
+          <a class="navbar-brand" href="#" style="align:right;">Einstein ki Chai </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul><br><br>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-----------Navbar Close---------->
+
+    <br><br><br>
+    <!-----------Slider Start ---------->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" style="height:1%;">
+          <div class="banner" style="background-image: url(img/img1.jpg);"></div>
+          <div class="carousel-caption">
+            <h3 class="animated bounceInRight" style="animation-delay: 1s; font-size: 60px;"> FRAGRANT <span>Tea</span></h3>
+            <h4 class="animated bounceInLeft" style="animation-delay: 2s">Our goal is to fill your cup with joy you can
+              share with guests and friends leaving boring fuss far away.</h4>
+            <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#contact">Contact us</a></p>
+          </div>
+        </div>
+
+        <div class="item" style="height:1%;">
+          <div class="banner" style="background-image: url( img/img2.jpg);"></div>
+          <div class="carousel-caption">
+            <h3 class="animated slideInDown" style="animation-delay: 1s; font-size: 60px;">ENJOY THE <span>BEST TEA</span></h3>
+            <h4 class="animated fadeInUp" style="animation-delay: 2s"></h4>
+            <p class="animated zoomIn" style="animation-delay: 3s"><a href="#contact">Contact us</a></p>
+          </div>
+        </div>
+        <div class="item" style="height:1%;">
+          <div class="banner" style="background-image: url(img/img3.jpg);"></div>
+          <div class="carousel-caption">
+            <h3 class="animated zoomIn" style="animation-delay: 1s; font-size: 60px;">THE TASTE OF <span>REAL TEA</span></h3>
+            <h4 class="animated fadeInLeft" style="animation-delay: 2s">MAKE A PAUSE AND HAVE A CUP OF TEA</h4>
+            <p>Our Tea store will be a small island of pleasure you are welcome to discover among everyday routine.</p>
+            <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#contact">Contact us</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-----------Slider Close---------->
+
+  <!-----------Service Flex box start---------->
+  <div class="wrapper">
+    <div class="one">
+      <center> <br><img src="img/icon-1.png" width="60px" height="60px" style="float:center"></center>
+      <center>
+        <h4 style="color:white; float:center; font-size:28px;font-weight:600;">Teaware &amp; Accessories</h4>
+      </center>
+      <center>
+        <p style="color:#DDDDDD;">At our shop, you can purchase different kinds of<br> teaware and accessories for your
+          tea drinking <br> pleasure.</p>
+      </center>
+      <br><br>
+      <button
+        style="width:102%; height:50px; background:#B9D146; color:white; font-size:23px; font-weight:700; margin-left:0;  "><a
+          href="service.html" style="text-decoration:none; color:white;"> Read More </a></button>
+    </div>
+
+    <div class="two">
+      <center> <br><img src="img/icon-2.png" width="60px" height="60px" style="float:center;"></center>
+      <center>
+        <h4 style="color:white; float:center; font-size:22px; font-weight:600;">Tea Collections</h4>
+      </center>
+      <center>
+        <p style="color:#DDDDDD;">We have a regularly updated range of tea <br> collections for true tea lovers. All
+          teas are freshly <br> packed and instantly delivered.</p>
+      </center>
+      <br><br>
+      <button
+        style="width:102%; height:50px;background:#B9D146; color:white; font-size:23px; font-weight:700; padding-right:0; margin-top: 5.8px;">
+        <a href="service.html" style="text-decoration:none; color:white;"> Read More </a> </button>
+    </div>
+</div>
+<div class="wrapper1">
+    <div class="three" style="background-color:#5D534A;">
+      <center><br><img src="img/icon-3.png" width="60px" height="60px" style="float:center;"></center>
+      <center>
+        <h4 style="color:white; float:center; font-size:22px; font-weight:600;">Tea Gifts</h4>
+      </center>
+      <center>
+        <p style="color:#DDDDDD;">Looking for a gift that a real fan of tea will <br> appreciate? You can find anything
+          tea-related on <br> our website.</p>
+      </center>
+      <br><br>
+      <button
+        style="width:102%; height:50px;background:#B9D146; color:white; font-size:23px; font-weight:700; padding-right:0; "><a
+          href="service.html" style="text-decoration:none; color:white;"> Read More </a></button>
+    </div>
+
+    <div class="four" style="background-color:#766161;">
+      <center><br><img src="img/icon-4.png" width="60px" height="60px" style="float:center;"></center>
+      <center>
+        <h4 style="color:white; float:center; font-size:22px; font-weight:600;">Tea Infusers</h4>
+      </center>
+      <center>
+        <p style="color:#DDDDDD;">Simplify the process of making perfect tea with <br> one of our tea infusers that are
+          reasonably priced <br>and creative. </p>
+      </center>
+      <br><br>
+      <button
+        style="width:102%; height:50px;background:#B9D146; color:white; font-size:23px; font-weight:700; padding-right:0; "><a
+          href="service.html" style="text-decoration:none; color:white;"> Read More </a> </button>
+    </div>
+  </div>
+  <!-----------Service Flex box close---------->
+
+  <!----------About Us Start----------->
+  <br><br>
+  <center id="about">
+    <h4 style="font-weight:700;letter-spacing:0.1em;  font-size:3em;">ABOUT US</h4>
+  </center>
+  <center>
+    <p>We are an online tea shop providing clients all over the world with high-quality and <br> affordable teas of our
+      own production.</p>
+  </center>
+  <br>
+  <video width="50%" autoplay loop controls muted>
+    <source src=" img/about.mp4 " type="video/mp4">
+  </video>
+  <!----------About Us Close----------->
+
+  <br>
+  <img src="img/img4.jpg" width="100%" height="50%">
+  <br><br>
+
+
+
+
+  <!-----------Tea is a drink of us health Start---------->
+  <center>
+    <h4 style="font-size:3em; font-weight:2000;"><b>TEA IS A DRINK OF <span style="color:#B9D146;">HEALTH &
+          BEAUTY</span> <br>FOR YOU</b></h4>
+  </center>
+
+  <div class="flex-container">
+    <div class="flex-item-left"> <img src="img/SV1.png " width="260px" height="190px" align="left"><br>
+      <h4 style="color:black; font-size:25px; font-weight:600;">Green Tea</h4>
+      <p style="font-size:16px;">It’s loaded with antioxidants that have many health benefits, which may include-
+        improved brain function,fat loss,protecting against cancer,lowering the risk of heart disease</p>
+    </div>
+
+    <div class="flex-item-right"><img src="img/SV2.png " width="260px" height="190px" align="left"><br>
+      <h4 style="color:black; font-size:25px; font-weight:600;">Ginger Tea</h4>
+      <p style="font-size:16px;">Ginger contains key phytonutrients known as gingerols, and research has shown that
+        these can have an antimicrobial and anti-inflammatory effect which, when drunk as a tea, may help support a
+        healthy microbiome.</p>
+    </div>
+  </div>
+  <div class="flex-container1">
+    <div class="flex-item-left"> <img src="img/SV3.png " width="260px" height="190px" align="left"><br>
+      <h4 style="color:black; font-size:25px; font-weight:600;">Black Tea</h4>
+      <p style="font-size:16px;">Black tea is used for improving mental alertness as well as learning, memory, and
+        information processing skills. It is also used for conditions such as headache, both low and high blood
+        pressure, preventing Parkinson disease, and many others.</p>
+    </div>
+
+    <div class="flex-item-right"><img src=" img/SV4.png " width="270px" height="190px" align="left"><br>
+      <h4 style="color:black; font-size:25px; font-weight:600;">Tulsi Tea</h4>
+      <p style="font-size:16px;">tulsi tea helps in maintaining the level of cortisol hormone in the body which is also
+        known as the stress hormone. Tulsi tea lowers the levels of cortisol, which may reduce your overall stress as
+        well as anxiety.</p>
+    </div>
+  </div>
+  <!-----------Tea is a drink of us health Close---------->
+
+
+  <!-----------Fix Background Image Start -------------->
+  <section class="parallax">
+    <div class="parallax-inner">
+      <h4 class="text" style="text-align:left; margin-left:35px;">Get Personal Discount Stay With Us</h4><br><br>
+      <p style=" text-align:left;font-size:20px;font-weight:500;color:#fff; margin-left:40px;">WE ARE READY TO PLEASE
+        TEA BEGINNERS AND TEA GURUS</p><br>
+      <button id="#contact"
+        style="width:18vw; height:8vh;background:#EDBB00; color:white; font-size:2vw; font-weight:700; margin-left:40px; border-radius:25px; ">
+        Read More </button>
+    </div>
+  </section>
+  <!-----------Fix Background Image Close -------------->
+
+
+  <!-----------Our Store Start----------->
+  <div id="service" class="margin" style="background:#F7F7E8; margin-top:2%;padding-bottom:8%; paddimg-top:10%;">
+    <center>
+      <h4 style="font-size:2.5em; font-weight:700;padding-top:30px;"><b>OUR STORE</b></h4>
+    </center><br>
+    <center>
+      <p style="color:#798777;">At our store, we have a wide range of fresh teas and the products to serve them!<br> Our
+        gourmet tea assortments will suit any occasion and any taste.</p>
+    </center>
+    <br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="testimonial-slider" class="owl-carousel">
+            <div class="testimonial">
+              <div class="pic">
+                <img src="img/product1.png" alt="">
+              </div><br>
+              <h3 class="description">
+                REVOLUTION DRAGON EYE OOLONG TEA
+              </h3>
+              <h5><b>$20,00 </b> $49,50</h5>
+              <button
+                style="width:50%; height:40px;background:#B9D146; color:white; font-size:18px; font-weight:600; margin-left:10px; border:1px solid #B9D146; "><a
+                  href="service.html" style="text-decoration:none; color:white;"> Read More </a></button>
+
+            </div>
+
+            <div class="testimonial">
+              <div class="pic">
+                <img src="img/product2.png" alt="">
+              </div>
+              <h3 class="description">
+                TEMPERED GLASS 5-CUP RED TEA POT
+              </h3>
+              <h5><b>$10,00 </b> $49,50</h5>
+              <button
+                style="width:50%; height:40px;background:#B9D146; color:white; font-size:18px; font-weight:600; margin-left:10px; border:1px solid #B9D146; "><a
+                  href="service.html" style="text-decoration:none; color:white;"> Read More </a></button>
+
+            </div>
+
+            <div class="testimonial">
+              <div class="pic">
+                <img src="img/product3.png" alt="">
+              </div>
+              <h3 class="description">
+                PRIMULA FLOWERING JASMINE TEA
+              </h3>
+              <h5><b>$11,00 </b> $49,50</h5>
+              <button
+                style="width:50%; height:40px;background:#B9D146; color:white; font-size:18px; font-weight:600; margin-left:10px; border:1px solid #B9D146; "><a
+                  href="service.html" style="text-decoration:none; color:white;"> Read More </a> </button>
+
+            </div>
+
+
+            <div class="testimonial">
+              <div class="pic">
+                <img src=" img/product4.png" alt="">
+              </div>
+              <h3 class="description">
+                PRIMULA 40-OUNCE BLOSSOM GLASS TEAPOT
+              </h3>
+              <h5><b>$12,00 </b> $49,50</h5>
+              <button
+                style="width:50%; height:40px;background:#B9D146; color:white; font-size:18px; font-weight:600; margin-left:10px; border:1px solid #B9D146; "><a
+                  href="service.html" style="text-decoration:none; color:white;"> Read More </a></button>
+            </div>
+
+            <div class="testimonial">
+              <div class="pic">
+                <img src=" img/product5.png" alt="">
+              </div>
+              <h3 class="description">
+                REVOLUTION PEAR WHITE TEA
+              </h3>
+              <h5><b>$21,00 </b> $49,50</h5>
+              <button
+                style="width:50%; height:40px;background:#B9D146; color:white; font-size:18px; font-weight:600; margin-left:10px; border:1px solid #B9D146; "><a
+                  href="service.html" style="text-decoration:none; color:white;"> Read More </a> </button>
+
+            </div>
+            <div class="testimonial">
+              <div class="pic">
+                <img src="img/product6.png " alt="">
+              </div>
+              <h3 class="description">TEA BEYOND GRADE BLOOMING ASSORTED TEA</h3>
+              <h5><b>$14,00 </b> $49,50</h5>
+              <button
+                style="width:50%; height:40px;background:#B9D146; color:white; font-size:18px; font-weight:600; margin-left:10px; border:1px solid #B9D146; "><a
+                  href="service.html" style="text-decoration:none; color:white;"> Read More </a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#testimonial-slider").owlCarousel({
+          items: 3,
+          itemsDesktop: [1199, 2],
+          itemsDesktopSmall: [979, 2],
+          itemsTablet: [768, 2],
+          itemsMobile: [600, 1],
+          pagination: true,
+          navigation: false,
+          navigationText: ["", ""],
+          slideSpeed: 1000,
+          autoPlay: true
+        });
+      });
+    </script>
+  </div>
+  <!-----------Our Store Close---------->
+
+
+
+
+
+  <!-------------Tea Sales Center Start------------>
+  <div>
+    <center><img src="img/cup.jpg" width="50%" height="70%"></center>
+    <center>
+      <div style=" border:5px solid #E7DFD5;width:70vw;">
+        <center>
+          <h4 style="font-size:2.5em; font-weight:700;padding-top:30px;"><b>TEA SALES CENTER</b></h4>
+        </center><br>
+        <center>
+          <p style="color:#798777; padding-left:10px; padding-right:10x;">At our Tea Sales Center, you not only get to
+            select among the <br> best and widest range of various tea brands but also get to<br> see the diversity and
+            variety in all popular tea categories.</p>
+        </center><br>
+        <center><button
+            style="width:20vw; height:7vh;background:#B9D146; color:white; font-size:2vw; font-weight:600; border:1px solid #B9D146; "><a
+              href="service.html" style="text-decoration:none; color:white;"> Read More </a></button></center>
+        <br><br>
+      </div>
+    </center>
+  </div>
+  <!-------------Tea Sales Center Closr------------>
+
+  <!-------------Why choose us Start -------------->
+  <br><br>
+  <div>
+    <center>
+      <p style="font-size:3vw; font-weight:1200;"><b>WHY <span style="color:#B9D146;">CHOOSE</span> US ?</b></p>
+    </center>
+  </div>
+  <br>
+  <div id="container">
+    <div id="left">
+      <div class="">
+        <center> <img class="img2" src="img/icon4.jpg" width="60%" height="30%" style="margin-right:4vw;"></center>
+        <h2 style="font-size:2.1vw; font-weight:900; color:#57bd27;"><b>AUTHENTIC</b></h2>
+        <p style="font-size:1.5vw; text-align:left; padding-left:25px;">Our tea arr directly sourced from the land of
+          the teas, with no involvent of middlemen which automatically promotes authenticity $ ensures a delectable cup
+          of tea.</p>
+      </div>
+    </div>
+
+    <div id="right">
+      <center> <img class="img2" src="img/icon6.jpg" width="60%" height="40%" style="margin-right:2vw;"></center>
+      <h2 style="font-size:2.1vw; font-weight:900; color:#57bd27;"><b>FRESH</b></h2>
+      <p style="font-size:1.5vw; text-align:left; padding-left:20px; padding-right:10px;">Tranquility in tea is induced
+        by freshness ,We insure the freshness of tea is preserved by using vaccum packaging and dehumidified storage.
+      </p>
+    </div>
+
+    <div id="center">
+      <center> <img class="img2" src="img/icon5.jpg" width="60%" height="40%" style="margin-right:2vw;"></center>
+      <h2 style="font-size:2.1vw; font-weight:900; color:#57bd27;"><b>HIGH QUALITY </b></h2>
+      <p style="font-size:1.5vw; text-align:left; padding-left:20px;">Our teas are created by using 100% natural
+        ingredients and are approved by our tea tasters.</p>
+      <br>
+    </div>
+  </div>
+  <br><br>
+
+  <!------------2ns Background image Code Start-------->
+
+  <section class="para">
+    <div class="para-inner">
+      <br><br><br><br>
+      <h1 style="color:#EDBB00;font-size:3vw;"><b>TEA IS YOUR WELLNESS</b></h1>
+      <p style="font-size:2.1vw;">
+        It's your opportunity to create a moment: for stillness, for reflection, for
+        yourself. It's your connection to a world of senses; flavors both exotic and
+        familiar, energizing and relaxing. It's your retreat from an increasingly
+        turbulent world. It is the perfect paradox of simplicity and complexity</p>
+      <button
+        style="width:20vw; height:6vh;background:#EDBB00; color:white; font-size:2vw; font-weight:700; margin-left:5px; border-radius:25px; "><a
+          href="service.html" style="text-decoration:none; color:white;"> Read More </a></button>
+      <br><br><br><br>
+    </div>
+  </section>
+  <!------------2ns Background image Code Close-------->
+
+  <!------------What users say Start------------
+<br><br>
+<div style=" background-color:#F7F7E8;">
+<br><br><br>
+<div>
+<center><p style="font-size:4vw; font-weight:1200;"><b>WHAT OUR <span style="color:#EDBB00;">CUSTOMER'S  SAY ?</span></b></p></center>
+</div>
+<br>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="slide-container">
+        <div class="slide-card text-center"><img class="slide-card-img-top" src=" img/user1.jpg" alt="">
+          <div class="slide-card-body">
+            <h5>Ronne Galle <br />
+              <span> Project Manager </span>
+            </h5>
+            <p class="slide-card-text">“ Everything, right from the site down to the product, is well packaged. Certainly, I would recommend to people with similar tastes. The teas are heaven. ”</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-container">
+        <div class="slide-card text-center"><img class="slide-card-img-top" src=" img/user2.jpg" alt="">
+          <div class="slide-card-body">
+            <h5>David Goyal<br />
+              <span> Web Developer</span>
+            </h5>
+            <p class="slide-card-text">“ Teabox offers a wide selection of high quality tea as compared to what one finds in the market. The site makes it very easy to browse and select teas of your choice. Good job! ”</p>
+             </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-container">
+        <div class="slide-card text-center">
+          <img class="slide-card-img-top" src=" img/user3.jpg" alt="">
+          <div class="slide-card-body">
+            <h5>Utpal Goes<br />
+              <span> Architecture </span>
+            </h5>
+            <p class="slide-card-text">“ Quality of tea - excellent. The packaging was so good that the tea did not lose much of its freshness despite covering such a long distance. ”</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    autoplay:
+    {
+      delay: 2000,
+    },
+    loop: true,
+
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 10,
+    centeredSlides: true,
+    roundLengths: true,
+    loop: true,
+    loopAdditionalSlides: 30,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 0
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 0
+      },
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 0
+      }
+    }
+  });
+</script>
+<br><br><br><br>
+</div>
+<br><br>
+------------What users say Close------------>
+
+
+  <!-------------Google Map Start--------------->
+  <section>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58881.86361608124!2d75.82882410563305!3d22.723911734610468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1627202985150!5m2!1sen!2sin"
+      width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+
+  <!--<div>
+<img src="/storage/emulated/0/DCIM/Screenshots/map.jpg" width="100%" height="550vh">
+</div>-->
+  <!-------------Google Map Close--------------->
+
+
+  <!-------------Footer Start----------->
+  <footer class="footer-distributed" id="contact">
+    <div class="footer-left">
+      <img src="img/logo.png">
+      <h3>About <span>Eistein Ki Chai</span></h3>
+      <p class="footer-links" style="font-size:16px;">
+        <a href="#index">Home</a>
+        |
+        <a href="#about">About</a>
+        |
+        <a href="service.html">Servives</a>
+        |
+        <a href="#contact">Contact</a>
+      </p>
+
+      <p class="footer-company-name">© 2021 Copywrite</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>786 - Geeta Bhavan,
+            Bldg, Sector - 1</span>
+          Mahape, Navi Mumbai - 400710</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 22-27782183</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:einsteinkichai@gmail.com">einsteinkichai@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span style="font-size:20px;"><b>About the shop</b></span>
+        At our Tea Sales Center, you not only get to select among the best and widest range of various tea brands but
+        also get to see the diversity and variety in all popular tea categories.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-----------Footer Closr--------->
+
+</body>
+
+</html>
